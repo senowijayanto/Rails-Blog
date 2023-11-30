@@ -1,0 +1,15 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "localhost",
+      "database": "${workspaceFolder:rails-blog}/db/development.sqlite3"
+    }
+  ],
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "ruby": "html"
+  }
+}
